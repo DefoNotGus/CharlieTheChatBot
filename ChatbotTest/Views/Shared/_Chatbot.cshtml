@@ -1,0 +1,16 @@
+﻿<div id="chatbot-widget" class="chatbot-widget">
+    <button id="chatbot-toggle" class="chatbot-toggle" onclick="toggleChat()">💬</button>
+    <div id="chatbot-window" class="chatbot-window">
+        <div id="chatbot-header" class="chatbot-header">
+            <span class="first-word">AI</span> <span class="second-word">Assistant</span>
+        </div>
+        <div id="chatbot-messages" class="chatbot-messages">
+            <!-- Messages will go here as .chatmsg.user or .chatmsg.bot 
+                More information can be found in the chatbot.js file -->
+        </div>
+        <div id="chatbot-input" class="chatbot-input">
+            <input type="text" id="chatbot-text" placeholder="Ask something..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</div>
